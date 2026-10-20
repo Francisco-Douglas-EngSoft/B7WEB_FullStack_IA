@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplos de listas, imagens e links</title>
+</head>
+<body>
+    <h1>Exemplos de listas, imagens e links</h1>
+
+    <section>
+        <h2>Listas</h2>
+
+        <h3>Lista não ordenada: ingredientes</h3>
+        <p>Uma lista não ordenada é indicada quando a ordem dos itens não importa.</p>
+        <ul>
+            <li>1 xícara de farinha de trigo</li>
+            <li>1/2 xícara de açúcar</li>
+            <li>1/4 xícara de manteiga</li>
+            <li>1 ovo</li>
+            <li>1 colher de chá de fermento em pó</li>
+        </ul>
+
+        <h3>Lista ordenada: modo de preparo</h3>
+        <p>Uma lista ordenada é indicada para etapas que devem ser seguidas em sequência.</p>
+        <ol>
+            <li>Preaqueça o forno a 180°C.</li>
+            <li>Bata a manteiga e o açúcar até ficarem cremosos.</li>
+            <li>Adicione o ovo e bata bem.</li>
+            <li>Acrescente a farinha e o fermento, misturando delicadamente.</li>
+            <li>Coloque a massa em uma forma e asse por cerca de 30 minutos.</li>
+        </ol>
+
+        <h3>Lista de definição</h3>
+        <dl>
+            <dt>HTML</dt>
+            <dd>Linguagem usada para estruturar o conteúdo de páginas web.</dd>
+            <dt>CSS</dt>
+            <dd>Linguagem usada para definir a aparência das páginas web.</dd>
+        </dl>
+    </section>
+
+    <section>
+        <h2>Imagens</h2>
+        <p>O atributo <code>alt</code> descreve a imagem para leitores de tela e quando ela não carrega.</p>
+        <img
+            src="https://placehold.co/600x300?text=Exemplo+de+imagem"
+            alt="Imagem de exemplo com o texto: Exemplo de imagem"
+            width="600"
+            height="300"
+        >
+    </section>
+
+    <section>
+        <h2>Links</h2>
+        <p>Um link externo pode levar a outra página:</p>
+        <p>
+            <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML">
+                Aprenda mais sobre HTML na MDN
+            </a>
+        </p>
+
+        <p>Também é possível criar um link para uma seção desta mesma página:</p>
+        <p><a href="#contato">Ir para a seção de contato</a></p>
+
+        <h3 id="contato">Contato</h3>
+        <p><a href="mailto:exemplo@email.com">Enviar um e-mail</a></p>
+    </section>
+</body>
+</html>

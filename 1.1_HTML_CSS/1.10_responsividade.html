@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Responsividade</title>
+    <link rel="stylesheet" href="./1.10_style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <a class="logo" href="#">Meu Site</a>
+        <nav aria-label="Navegação principal">
+            <a href="#inicio">Início</a>
+            <a href="#servicos">Serviços</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <main id="inicio">
+        <section class="apresentacao">
+            <p class="destaque">HTML + CSS</p>
+            <h1>Um layout que se adapta a qualquer tela</h1>
+            <p>
+                Redimensione a janela do navegador para ver o layout mudar.
+                As media queries ajustam a página para desktop, tablet e celular.
+            </p>
+        </section>
+
+        <section id="servicos" class="servicos">
+            <h2>O mesmo conteúdo, diferentes telas</h2>
+            <div class="grade">
+                <article class="cartao">
+                    <span class="icone" aria-hidden="true">01</span>
+                    <h3>Desktop</h3>
+                    <p>Em telas largas, os cartões aparecem lado a lado em três colunas.</p>
+                </article>
+                <article class="cartao">
+                    <span class="icone" aria-hidden="true">02</span>
+                    <h3>Tablet</h3>
+                    <p>Em telas médias, a grade passa a usar duas colunas para manter a leitura confortável.</p>
+                </article>
+                <article class="cartao">
+                    <span class="icone" aria-hidden="true">03</span>
+                    <h3>Celular</h3>
+                    <p>Em telas pequenas, os cartões ficam em uma coluna e a navegação pode quebrar linha.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="contato" class="aviso">
+            <h2>Experimente</h2>
+            <p>Use as ferramentas de desenvolvedor do navegador para testar larguras diferentes.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Exemplo educativo de media queries.</p>
+    </footer>
+</body>
+</html>

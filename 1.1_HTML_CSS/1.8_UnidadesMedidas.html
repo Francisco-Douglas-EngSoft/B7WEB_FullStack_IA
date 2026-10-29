@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unidades de Medidas em CSS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 30px;
+            background: #f5f7ff;
+        }
+
+        .box {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 2px solid #333;
+            background: #fff;
+        }
+
+        .px {
+            width: 200px;
+            background: #dbeafe;
+        }
+
+        .em {
+            font-size: 1.5em;
+            background: #dcfce7;
+        }
+
+        .rem {
+            font-size: 1.2rem;
+            background: #fce7f3;
+        }
+
+        .percent {
+            width: 50%;
+            background: #fef3c7;
+        }
+
+        .vh {
+            height: 10vh;
+            background: #ddd6fe;
+        }
+
+        .vw {
+            width: 30vw;
+            background: #fecaca;
+        }
+    </style>
+</head>
+<body>
+    <h1>Unidades de Medidas em CSS</h1>
+
+    <div class="box px">
+        <strong>px:</strong> tamanho fixo em pixels.
+    </div>
+
+    <div class="box em">
+        <strong>em:</strong> baseado no tamanho da fonte do pai.
+    </div>
+
+    <div class="box rem">
+        <strong>rem:</strong> baseado no tamanho da fonte do raiz (html).
+    </div>
+
+    <div class="box percent">
+        <strong>%:</strong> relativo ao container pai.
+    </div>
+
+    <div class="box vh">
+        <strong>vh:</strong> relativo à altura da viewport.
+    </div>
+
+    <div class="box vw">
+        <strong>vw:</strong> relativo à largura da viewport.
+    </div>
+</body>
+</html>

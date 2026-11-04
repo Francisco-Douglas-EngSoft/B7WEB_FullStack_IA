@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controlando classes com DOM</title>
+    <style>
+        .cartao {
+            max-width: 320px;
+            padding: 16px;
+            border: 1px solid #999;
+            border-radius: 8px;
+            transition: background-color 0.2s, transform 0.2s;
+        }
+
+        .destacado {
+            background-color: #fff3b0;
+            border-color: #d99b00;
+            transform: scale(1.03);
+        }
+    </style>
+</head>
+<body>
+    <article id="cartao">
+        <h1>Meu cartao</h1>
+        <p>Use os botoes para alterar a aparencia deste elemento.</p>
+    </article>
+
+    <button id="botao" type="button">Alternar destaque</button>
+    <button id="remover" type="button">Remover destaque</button>
+    <p id="mensagem" aria-live="polite">Destaque desativado</p>
+
+    <script src="./2.9_classList.js"></script>
+</body>
+</html>
